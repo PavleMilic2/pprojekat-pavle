@@ -5,27 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1564c05-b584-4c21-960c-3f82135fc1b9" name="Changes" comment="Update README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNodeComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNodeLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/core/IMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/core/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/message/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/message/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/message/LoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/message/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/message/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/observer/IPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/observer/ISubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/core/ClassyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/repository/ClassyRepositoryimplements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/repository/implementations/Package.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/repository/implementations/Povrsina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/repository/implementations/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/repository/implementations/ProjectExplorer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNodeComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNodeComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNodeLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/apstrakcija/ClassyNodeLeaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/controller/AbstractClassyAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/controller/AbstractClassyAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/controller/ActionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/controller/ActionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/controller/ExitAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/controller/ExitAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/view/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/view/MyToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/raf/dsw/classzcraft/app/view/MyToolBar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +51,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XukrZbOzGRFgekCGQHKplbHO3s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -71,8 +65,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "10",
-    "last_opened_file_path": "C:/Users/Vidan/dizajn-softvera-projekat-tim_pavlemilic_saradjosic/src/main/resources/slike",
+    "last_opened_file_path": "C:/Users/Pavle/Desktop/skola/programiranje/intelij/GeRuMap",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -88,6 +83,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vidan\dizajn-softvera-projekat-tim_pavlemilic_saradjosic\src\main\resources\slike" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="raf.dsw.classzcraft.app.repository" />
     </key>
   </component>
   <component name="RunManager" selected="Application.raf.dsw.classzcraft.app.AppCore">
@@ -106,7 +104,7 @@
     </configuration>
     <configuration name="raf.dsw.classzcraft.app.AppCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="raf.dsw.classzcraft.app.AppCore" />
-      <module name="dizajn-softvera-projekat-tim_pavlemilic_saradjosic" />
+      <module name="ClassyCrafT" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="raf.dsw.classzcraft.app.*" />

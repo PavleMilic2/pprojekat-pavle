@@ -22,7 +22,7 @@ public Icon loadIcon(String name){ //funkcija za ucitavanje icone iz resursa
     }
     else
     {
-        System.err.println("Resorce not found" + name);
+        System.err.println("Resorce not found " + name);
     }
         return icon;
 }

@@ -15,7 +15,7 @@ public class ExitAction extends AbstractClassyAction {
         //accelerator key je shortcut
 
         putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_F4, ActionEvent.ALT_MASK));
-        putValue(SMALL_ICON, loadIcon("/slike/exit-icon-close-0.png"));//od parenta
+        putValue(SMALL_ICON, loadIcon("/slike/exit-icon-png-close-0.png"));//od parenta
         putValue(NAME, "Exit");//ime akcije koje se vidi
         putValue(SHORT_DESCRIPTION, "Exit");//kada se stavi mis preko
     }
